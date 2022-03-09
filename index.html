@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style-home.css">
+    <link rel="shortcut icon" type="image/png" href="./img/keyboard.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>DEV.</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="logo">DEV.</h1>
+        <nav class="menu-principal">
+            <button class="menu-principal__btn">Menu Hamburger</button>
+            <ul class="menu-principal__lista">
+                <li><a class="menu-principal__item menu-principal__item--atual" href="index.html">Home</a></li>
+                <li><a class="menu-principal__item" href="sobre.html">Sobre</a></li>
+                <li><a class="menu-principal__item" href="portfolio.html">Portfolio</a></li>
+                <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+<main> <!--Main equivale a uma section porem com algumas restrições-->
+    <header class="cabecalho-home">
+        <h2 class="cabecalho-home__titulo">DEV.</h2>
+        <p class="cabecalho-home__subtitulo">Somos um studio de Design e Marketing Digital carioca. Somos como você, queremos realizar o melhor. Ir além do óbvio e explorar todo o potencial criativo e humano da sua empresa.</p>
+        <a class="cabecalho-home__role" href="#servicos">Role a tela para ver mais</a>
+    </header>
+<section id="servicos" class="servicos"> <!--Sessão de Serviços-->
+    <h2 class="home__titulo">O que fazemos</h2>
+    <section class="servicos__item">
+        <img src="./img/dev web.png" alt="icone de desenvolvimento web">
+        <h3>Desenvolvimento Web</h3>
+        <p class="servicos__texto">Se você deseja aprimorar a presença digital da sua empresa, desenvolvemos sites completos e landing pages voltadas para atrair cada vez mais clientes.</p>
+    </section>
+    <section class="servicos__item">
+        <img src="./img/design.png" alt="icone de um monitor de computador">
+        <h3>Identidade Visual e Outros Serviços</h3>
+        <p class="servicos__texto">Quer renovar a imagem da empresa ou começar a investir no branding de um novo negócio? Ajudamos você a definir toda a identidade visual da sua marca.</p>
+    </section>
+    <section class="servicos__item">
+        <img src="./img/devs-media.png" alt="icone de um smartphone">
+        <h3>Gestão de mídias sociais</h3>
+        <p class="servicos__texto">A gestão de mídias sociais trará mais visibilidade para sua marca, facilitará a aproximação com os clientes, e irá ajudá-lo a se destacar da concorrência.</p>
+    </section>
+</section> <!--Fim da Sessão de Serviços-->
+<section class="depoimentos"> <!--Sessão de Depoimentos-->
+    <h2 class="depoimentos__titulo">O que falam sobre mim</h2>
+    <section class="depoimentos__item">
+        <img class="depoimentos__img" src="./img/depoimentos/pessoa.jpg" alt="foto de uma pessoa">
+        <p class="depoimentos__texto">Procurei a DEV. para me ajudar a criar meu site e fazer um trabalho diferenciado. Tive toda assessoria necessária e meu site ficou como eu sempre sonhei.</p>
+        <p class="depoimentos__pessoa">José Alfredo - Ourives</p>
+    </section>
+</section> <!--Fim da Sessão de Depoimentos-->
+</main>
+<footer class="rodape">
+    <div class="rodape__linha-1">
+        <div class="rodape__coluna">
+            <a href="index.html" class="logo logo--branca">DEV.</a>
+            <p>Somos um studio de Design e Marketing Digital carioca. Somos como você, queremos realizar o melhor. Ir além do óbvio e explorar todo o potencial criativo e humano da sua empresa.</p>
+        </div>
+        <div class="rodape__coluna">
+            <h2 class="rodape__titulo">Social</h2>
+            <ul class="rodape__lista-links">
+                <li><a class="rodape__lista-links__items" href="https://www.twitter.com/jonathasfs" target="_blank">Twitter</a></li>
+                <li><a class="rodape__lista-links__items" href="https://www.linkedin.com/in/jonathasfs" target="_blank">Linkedin</a></li>
+                <li><a class="rodape__lista-links__items" href="https://www.github.com/jon1408" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+        <div class="rodape__coluna">
+            <h2 class="rodape__titulo">Links</h2>
+                <ul class="rodape__lista-links">
+                    <li><a class="rodape__lista-links__items" href="index.html">Home</a></li>
+                    <li><a class="rodape__lista-links__items" href="sobre.html">Sobre</a></li>
+                    <li><a class="rodape__lista-links__items" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="rodape__lista-links__items" href="contato.html">Contato</a></li>
+                </ul>
+        </div>
+    </div>
+    <div class="rodape__linha-2">
+        &copy 2021 - Todos os direitos reservados - JonathasFS
+    </div>
+</footer>
+</body>
+</html>
