@@ -1,0 +1,43 @@
+.pagina-cabecalho{
+    letter-spacing: 1.5px;
+    color: #fff;
+    font-family: 'titulo';
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%!important;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.pagina-cabecalho__titulo{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pagina-cabecalho__titulo::after{
+    content: '';
+    display: block;
+    width: 3.125em;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 1.25em;
+}
+
+.pagina-conteudo{
+    padding: 1em;
+    padding-top: 1.5625em;
+    padding-bottom: 1.5625em;
+}
+
+.pagina-conteudo p{
+    color: #3a3a3a;
+    line-height: 1.375em;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.text-center{
+    text-align: center;
+}

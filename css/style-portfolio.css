@@ -1,0 +1,23 @@
+.lista-trabalhos{
+    list-style: none;
+    padding: 0;
+}
+.lista-trabalhos__item{
+    margin-left: -0.9375em;
+    margin-right: -0.9375em;
+    margin-bottom: 3.125em;
+}
+.lista-trabalhos__item a{
+    text-decoration: none;
+}
+.lista-trabalhos__titulos{
+    color:#3F4C6B;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+    font-size: 1.1250em;
+    margin-left: 1em;
+    border-left: 2px solid #3F4C6B;
+    padding-left: 0.625em;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+}
